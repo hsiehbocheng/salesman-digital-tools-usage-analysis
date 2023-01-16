@@ -1,10 +1,23 @@
 # 壽險業務員績效與數位工具使用習慣之分析
-<br>
-該專案是與富邦人壽所提供資料，於政治大學111年上學期謝明華老師之機器學習與人工智慧個案實作課程作為使用，<br>
-所以這邊無法提供原始資料，僅展示分析過程與結論以及Python code<br>
+
+### 專案介紹
+富邦人壽內部為其業務員開發一項數位工具**FLi**，該數位工具協助業務員統整客戶資料、活動排程與每日演算法推薦之聯繫客戶，但因為個人習慣、通訊處管落實等原因，<br>
+僅<font color = "DarkBlue">**17%**</font> 業務員有使用數位工具FLi之習慣，希望透過定義高績效業務員，分析高績效因子與數位工具使用特徵，激勵業務員表現。<br>
+1. 我們先利用K-means 對業務員進行分群並以保費收入作為高績效業務員之定義<br>
+2. 接著利用Tableau 視覺化呈現各群內高績效與其他業務員在各特徵之差異<br>
+3. 最後建立高績效預測模型，模型重要特徵並搭配可解釋AI 演算法SHAP 幫助我們分析高績效因子，並包裝解決方案，提升業務員使用數位工具之意願。
+其中變數包含業務員一年之數位工具使用資料，例如：
+
+``備忘錄字數``、``登入次數``、``定聯次數``、``問卷系統``......等等，我們另外建立以保單健檢客戶數除上總客戶數代表之顧客信任度，或是平均每位客戶之定聯次數等一般化特徵。
+
 
 tags: ``Machine Learning`` ``SHAP`` ``Tableau Dekstop`` ``FinTech``
 <br>
+
+
+``該專案是與富邦人壽所提供資料，於政治大學111年上學期謝明華老師之機器學習與人工智慧個案實作課程作為使用，<br>
+所以這邊無法提供原始資料，僅展示分析過程與結論以及Python code
+``
 
 ### 專案介紹
 富邦人壽內部為其業務員開發一項數位工具**FLi**，該數位工具協助業務員統整客戶資料、活動排程與每日演算法推薦之聯繫客戶，但因為個人習慣、通訊處管落實等原因，<br>
@@ -28,7 +41,8 @@ tags: ``Machine Learning`` ``SHAP`` ``Tableau Dekstop`` ``FinTech``
 接者我們畫圖觀察各群之特徵，可以定義三群業務員之特色，這邊以第一群為例，該群年資皆較淺，而年齡也較淺，可以認為這群特徵為年輕基層、新鮮人，<br>
 另外兩群之定義分別為 **事業第二春**與**資深高層**。
 
-<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/youngXAI.png" alt="Cover" width="30%"/>
+<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/youngSeniority.png" alt="Cover" width="30%"/>
+<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/youngAge.png" alt="Cover" width="30%"/>
 
 - 模型建立與XAI
 
