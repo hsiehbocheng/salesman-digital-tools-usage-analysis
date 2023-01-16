@@ -19,7 +19,7 @@ tags: ``Machine Learning`` ``SHAP`` ``Tableau Dekstop`` ``FinTech``
 <br>
 以下是方案簡圖：
 
-<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/summary.png" alt="Cover" width="70%"/>
+<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/summary.png" alt="Cover" width="90%"/>
 <br>
 
 
