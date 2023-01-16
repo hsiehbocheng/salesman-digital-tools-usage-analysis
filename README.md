@@ -10,7 +10,7 @@
 
 ``備忘錄字數``、``登入次數``、``定聯次數``、``問卷系統``......等等，我們另外建立以保單健檢客戶數除上總客戶數代表之顧客信任度，或是平均每位客戶之定聯次數等一般化特徵。
 
-- [方案簡報](https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/report/report.pdf)
+- [方案簡報（Google Drive）](https://drive.google.com/file/d/1aU5yqdqrxVBSmCc1ujqZvKHYvMKt7Ldr/view?usp=share_link)
 
 tags: ``Machine Learning`` ``SHAP`` ``Tableau Dekstop`` ``FinTech``
 <br>
