@@ -28,14 +28,14 @@ tags: ``Machine Learning`` ``SHAP`` ``Tableau Dekstop`` ``FinTech``
 接者我們畫圖觀察各群之特徵，可以定義三群業務員之特色，這邊以第一群為例，該群年資皆較淺，而年齡也較淺，可以認為這群特徵為年輕基層、新鮮人，<br>
 另外兩群之定義分別為 **事業第二春**與**資深高層**。
 
-<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/summary.png" alt="Cover" width="30%"/>
+<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/youngXAI.png" alt="Cover" width="30%"/>
 
 - 模型建立與XAI
 
 分完群後我們在各群各自建立預測模型，我們使用XGBoost 與Random Forest 建立預測模型，搭配使用XAI 工具SHAP 分析高績效因子，以下圖年輕基層模型之重要特徵為例，我們可以畫出以下SHAP summary plot，<br>
 越紅代表該特徵值越高對於預測正類別越有貢獻性，而y 軸可以想成是特徵重要的排序。
 
-<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/summary.png" alt="Cover" width="30%"/>
+<img src="https://github.com/hsiehbocheng/salesman-digital-tools-usage-analysis/blob/main/img/youngXAI.png" alt="Cover" width="30%"/>
 
 - 結論
 
